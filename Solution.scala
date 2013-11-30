@@ -16,7 +16,7 @@ object Solution {
     }
     
 
-    // Solution for http://codility.com/demo/take-sample-test/ps/ => got 100 score
+    // Solution for Prefix Set Test http://codility.com/demo/take-sample-test/ps/ => got 100 score
     def solutionPS(A: Array[Int]): Int = {
         // write your code in Scala 2.10
         val distinct = scala.collection.mutable.Set()++A
